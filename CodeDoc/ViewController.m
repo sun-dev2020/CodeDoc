@@ -16,7 +16,7 @@
 
 */
 #import "ViewController.h"
-
+#import "SecViewController.h"
 
 /*!
  @class  ViewController
@@ -43,6 +43,10 @@
     float celsius = [self toCelcius:120.0f];
     NSLog(@" celsius == %f ",celsius);
     
+    
+    SecViewController *sec = [[SecViewController alloc] init];
+    
+    [self.navigationController pushViewController:sec animated:YES];
 
 }
 
