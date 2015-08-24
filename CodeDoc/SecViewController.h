@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecViewController : UIViewController
+@interface SecViewController : UIViewController<UIGestureRecognizerDelegate>
 
 @end

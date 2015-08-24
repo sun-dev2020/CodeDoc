@@ -20,3 +20,18 @@ Second Level 标签：
 @coclass: 与当前class合作的另外一个class的名字。
 @helps: 当前class帮助的class的名字。
 @helper: 帮助当前class的class名字。
+
+
+
+
+2015-08-04 10:53:00.058 Ivy[19879:6763595] 收到消息推送字典: {
+    "_j_msgid" = 2609116672;
+    aps =     {
+        alert = "\U6709\U53562.0\U6b63\U5f0f\U5f00\U5356\Uff01";
+        badge = 2;
+        sound = "";
+    };
+    showType = 1;   /0
+    showValue = "www.163.com";
+}
+2015-08-04 10:

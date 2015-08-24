@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>AF9AEF60-D0FC-4FE1-B985-C5EBFA00D3C7</string>
 	<key>IDESourceControlProjectName</key>
-	<string>CodeDoc</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>FD8110E97EDB80D1AD9A87C26BE0AB28B19EB906</key>
 		<string>https://github.com/SunMichael/CodeDoc.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CodeDoc.xcodeproj</string>
+	<string>CodeDoc.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>FD8110E97EDB80D1AD9A87C26BE0AB28B19EB906</key>
