@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define TLog(prefix,Obj) {NSLog(@"变量内存地址：%p, 变量值：%p, 指向对象值：%@, --> %@",&Obj,Obj,Obj,prefix);}
+
 /*!
  @protocol ViewControllerDelegate
  @brief The ViewControllerDelegate protocol
@@ -49,6 +51,8 @@ typedef struct {
 /// 年纪属性参数 */
 @property (nonatomic, strong) NSString *ageString;
 
+/** 循环属性参数 */
+@property (nonatomic, strong) NSTimer *timer;
 
 
 

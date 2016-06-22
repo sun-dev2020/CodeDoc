@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FACF9CC91B5E65040051BAC7 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF9CC81B5E65040051BAC7 /* MyObject.m */; };
+		FADD1E021B79F1A400A1E5FE /* CustomNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = FADD1E011B79F1A400A1E5FE /* CustomNavigation.m */; };
 		FAE384891B40F34F00FDD784 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE384881B40F34F00FDD784 /* main.m */; };
 		FAE3848C1B40F34F00FDD784 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE3848B1B40F34F00FDD784 /* AppDelegate.m */; };
 		FAE3848F1B40F34F00FDD784 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE3848E1B40F34F00FDD784 /* ViewController.m */; };
@@ -15,6 +17,8 @@
 		FAE384971B40F34F00FDD784 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE384951B40F34F00FDD784 /* LaunchScreen.xib */; };
 		FAE384A31B40F34F00FDD784 /* CodeDocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE384A21B40F34F00FDD784 /* CodeDocTests.m */; };
 		FAE384AD1B40F50700FDD784 /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = FAE384AC1B40F50700FDD784 /* Notes */; };
+		FAE384B01B41489F00FDD784 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE384AF1B41489F00FDD784 /* SecViewController.m */; };
+		FAF4A50F1BE31E3800CEFC0B /* UIView+SizeOfView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF4A50E1BE31E3800CEFC0B /* UIView+SizeOfView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FACF9CC71B5E65040051BAC7 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		FACF9CC81B5E65040051BAC7 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		FADD1E001B79F1A400A1E5FE /* CustomNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigation.h; sourceTree = "<group>"; };
+		FADD1E011B79F1A400A1E5FE /* CustomNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigation.m; sourceTree = "<group>"; };
 		FAE384831B40F34F00FDD784 /* CodeDoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeDoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE384871B40F34F00FDD784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE384881B40F34F00FDD784 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +50,10 @@
 		FAE384A11B40F34F00FDD784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE384A21B40F34F00FDD784 /* CodeDocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeDocTests.m; sourceTree = "<group>"; };
 		FAE384AC1B40F50700FDD784 /* Notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		FAE384AE1B41489F00FDD784 /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		FAE384AF1B41489F00FDD784 /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
+		FAF4A50D1BE31E3800CEFC0B /* UIView+SizeOfView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SizeOfView.h"; sourceTree = "<group>"; };
+		FAF4A50E1BE31E3800CEFC0B /* UIView+SizeOfView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SizeOfView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +97,16 @@
 			children = (
 				FAE3848A1B40F34F00FDD784 /* AppDelegate.h */,
 				FAE3848B1B40F34F00FDD784 /* AppDelegate.m */,
+				FADD1E001B79F1A400A1E5FE /* CustomNavigation.h */,
+				FADD1E011B79F1A400A1E5FE /* CustomNavigation.m */,
 				FAE3848D1B40F34F00FDD784 /* ViewController.h */,
 				FAE3848E1B40F34F00FDD784 /* ViewController.m */,
+				FAE384AE1B41489F00FDD784 /* SecViewController.h */,
+				FAE384AF1B41489F00FDD784 /* SecViewController.m */,
+				FACF9CC71B5E65040051BAC7 /* MyObject.h */,
+				FACF9CC81B5E65040051BAC7 /* MyObject.m */,
+				FAF4A50D1BE31E3800CEFC0B /* UIView+SizeOfView.h */,
+				FAF4A50E1BE31E3800CEFC0B /* UIView+SizeOfView.m */,
 				FAE384901B40F34F00FDD784 /* Main.storyboard */,
 				FAE384931B40F34F00FDD784 /* Images.xcassets */,
 				FAE384951B40F34F00FDD784 /* LaunchScreen.xib */,
@@ -223,9 +243,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE384B01B41489F00FDD784 /* SecViewController.m in Sources */,
+				FAF4A50F1BE31E3800CEFC0B /* UIView+SizeOfView.m in Sources */,
 				FAE3848F1B40F34F00FDD784 /* ViewController.m in Sources */,
+				FADD1E021B79F1A400A1E5FE /* CustomNavigation.m in Sources */,
 				FAE3848C1B40F34F00FDD784 /* AppDelegate.m in Sources */,
 				FAE384891B40F34F00FDD784 /* main.m in Sources */,
+				FACF9CC91B5E65040051BAC7 /* MyObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
