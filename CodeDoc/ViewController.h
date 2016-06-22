@@ -51,7 +51,9 @@ typedef struct {
 /// 年纪属性参数 */
 @property (nonatomic, strong) NSString *ageString;
 
+/** 循环属性参数 */
 @property (nonatomic, strong) NSTimer *timer;
+
 
 
 /*!

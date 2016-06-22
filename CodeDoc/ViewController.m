@@ -18,6 +18,7 @@
 #import "ViewController.h"
 #import "SecViewController.h"
 #import "MyObject.h"
+#import "UIView+SizeOfView.h"
 /*!
  @class  ViewController
  @brief  The ViewController Class
@@ -57,9 +58,12 @@ static NSString *staticString = nil;
     }
     
     _fileName = [NSString stringWithFormat:@"fileName"];
+
     
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 100.0f, 50.0f, 50.0f)];
+    [label setHeight:100];
     float celsius = [self toCelcius:120.0f];
-    NSLog(@" celsius == %@ ",[UIButton class]);
+    NSLog(@" celsius == %f  %f ",celsius,label.viewHeight);
     
 //    _timer = [NSTimer scheduledTimerWithTimeInterval:3.0f target:self selector:@selector(countDown) userInfo:nil repeats:YES];
     
@@ -189,8 +193,17 @@ static NSString *staticString = nil;
  
 */
 -(float )toFahrenheit:(float) fromCelcius{
+    
     return fromCelcius * 1.8 + 32;
 }
+
+
+
+// TODO: 注释2
+- (void)oppp{
+    
+}
+#pragma mark - **************** 注释q
 
 
 - (void)didReceiveMemoryWarning {
